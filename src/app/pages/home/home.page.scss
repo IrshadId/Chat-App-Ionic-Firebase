@@ -1,0 +1,22 @@
+ion-header {
+    ion-toolbar{
+        font-family: 'Satisfy' cursive !important;
+        ion-title {
+            letter-spacing: 2px;
+            font-size: 1.8rem !important;
+        }
+    }
+    ion-segment{
+        --background: var(--ion-color-success);
+        ion-segment-button {
+            font-size: 1rem;
+            --color : var(--ion-color-light);
+            --color-checked: #fff;
+        }
+    }
+}
+ion-list-header{
+    font-size: .91rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
